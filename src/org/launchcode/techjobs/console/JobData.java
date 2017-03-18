@@ -76,7 +76,6 @@ public class JobData {
      */
     public static ArrayList<HashMap<String, String>> findByColumnAndValue(String column, String value) {
 
-        value = value.toLowerCase();
         // load data, if not already loaded
         loadData();
 
